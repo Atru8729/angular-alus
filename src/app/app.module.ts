@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
-import { PipesComponent } from './app/pipes/pipes.component';
+import { PipesComponent } from './pipes/pipes.component';
 import { ServicesComponent } from './services/services.component';
 
 @NgModule({
@@ -11,12 +11,10 @@ import { ServicesComponent } from './services/services.component';
     AppComponent,
     ComponentsComponent,
     PipesComponent,
-    ServicesComponent
+    ServicesComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
