@@ -1,6 +1,6 @@
 Angular projektas - Alaus mėgėjų platforma
 
-- Sukurkite platformą alaus megėjams, jūsų Angular projekte privalo būti bent 2 skirtingi routes, 3 skirtingi komponentai ir bent vienas service.
+- Sukurkite platformą alaus megėjams. Jūsų Angular projekte privalo būti bent 2 skirtingi routes, 3 skirtingi komponentai ir bent vienas service.
 
 - Jūsų platforma privalo turėti alaus modelį (klasę arba interface) su tokiais parametrais:
 
